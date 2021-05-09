@@ -9,6 +9,7 @@ h2 {
   font-size: 100px;
   margin-bottom: 0;
   color: black;
+  text-align: center;
 }
 .hover-underline-animation {
   display: inline-block;
