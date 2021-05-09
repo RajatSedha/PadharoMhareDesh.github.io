@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Kaushan+Script&family=Oswald&display=swap');
+body{
+	font-family: Comfortaa, sans-serif;
+	background: url(../images/samar-ahmad--nKCbZlOHek-unsplash.jpg);
+	background-size: cover;
+}
+:root {
+  --secondary-color: #1b9999;
+  --box-shadow: 0 5px 20px 1px rgba(0, 0, 0, 0.5);
+}
+h1 {
+  font-family: Kaushan Script, sans-serif;
+  font-size: 100px;
+  margin-bottom: 0;
+  color: black;
+}
+/* Home Section */
+.title-group {
+  text-align: center;
+}
+
+/* About Section */
+.about-container {
+  display: flex;
+}
+.image-container {
+  background: url(wp4021293-rajasthan-wallpapers.jpg);
+  border: 3px solid var(--secondary-color);
+  border-radius: 100px;
+  padding: 100px 20px;
+  margin-right: 45px;
+  margin-left: 45px;
+  margin-bottom: 50px;
+  width: auto;
+  box-shadow: var(--box-shadow);
+}
+button {
+  min-width: 100px;
+  height: 40px;
+  width: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 15px;
+  outline: none;
+}
+img {
+  height: 300px;
+  width: 350px;
+}

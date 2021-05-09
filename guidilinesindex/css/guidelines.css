@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Kaushan+Script&family=Oswald&display=swap');
+body{
+	font-family: Comfortaa, sans-serif;
+	background: url(../images/adam-niescioruk-Z9arfr0f248-unsplash.jpg);
+	background-size: cover;
+}
+h2 {
+  font-family: Kaushan Script, sans-serif;
+  font-size: 100px;
+  margin-bottom: 0;
+  color: black;
+}
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: black;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
